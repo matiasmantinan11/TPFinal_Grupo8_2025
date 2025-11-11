@@ -19,7 +19,9 @@
   Docentes y materia:
   ------------------------------------------------------
   Materia: Laboratorio de Computacion 1
+ 
   Docentes: Matias Jose Gagliardo y Pedro Facundo Iriso
+  
   Institucion: Universidad Nacional de San Martin (UNSAM)
  
   ------------------------------------------------------
