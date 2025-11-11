@@ -1,6 +1,5 @@
- ======================================================
+
    Proyecto: Traductor de Codigo Morse con Arduino
-  ======================================================
  
   Descripcion del sistema:
   Este proyecto implementa un traductor de codigo Morse utilizando una placa Arduino UNO,
@@ -51,12 +50,13 @@
   | Pulsador | Entrada de usuario | Pin 6 (INPUT_PULLUP) |
   | Buzzer piezoelectrico | Salida sonora | Pin 9 |
   | Pantalla LCD 16x2 (I2C) | Salida visual | Pines SDA/SCL |
-  | Protoboard y cables | Conexiones de montaje | - |
+  | Protoboard y cables | Conexiones de montaje |  |
  
   ------------------------------------------------------
   Esquema electrico / Diagrama de conexiones:
   ------------------------------------------------------
   ![Captura](TPFinal_Grupo8_2025/img/Captura%20de%20pantalla%202025-11-11%20183846.png)
+
   ------------------------------------------------------
   Maquina de estados:
   ------------------------------------------------------
