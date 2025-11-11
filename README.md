@@ -46,7 +46,7 @@
   ------------------------------------------------------
   | Componente | Descripcion | Conexion principal |
   |-------------|-------------|--------------------|
-  | Arduino UNO | Microcontrolador principal | - |
+  | Arduino UNO | Microcontrolador principal | USB |
   | Pulsador | Entrada de usuario | Pin 6 (INPUT_PULLUP) |
   | Buzzer piezoelectrico | Salida sonora | Pin 9 |
   | Pantalla LCD 16x2 (I2C) | Salida visual | Pines SDA/SCL |
