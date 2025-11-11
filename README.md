@@ -55,7 +55,7 @@
   ------------------------------------------------------
   Esquema electrico / Diagrama de conexiones:
   ------------------------------------------------------
-  img/Captura de pantalla 2025-11-11 183846.png
+  TPFinal_Grupo8_2025/img/Capturadiagrama.png
 
   ------------------------------------------------------
   Maquina de estados:
