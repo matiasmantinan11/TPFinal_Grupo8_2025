@@ -63,6 +63,8 @@ const char Alfabeto[26][6] = {
 // Variables de control de tiempo y estado
 enum Estado { UP, DOWN };
 Estado estado_actual;
+enum Estado2 { UP2, DOWN2 };
+Estado2 estado_actual2;
 unsigned long ultimo_cambio_t = 0;
 unsigned long down_duracion = 0;
 
@@ -139,12 +141,13 @@ void setup() {
     pinMode(BUZZER_PIN, OUTPUT);
     pinMode(BOTON_LIMPIAR, INPUT_PULLUP);
     estado_actual = UP;
+    estado_actual2 = UP2;
     LimpiaMorse();
 }
 
 void loop() {
     Estado estado_nuevo = (digitalRead(BOTON_PIN) == HIGH) ? UP : DOWN;
-
+    Estado2 estado_nuevo2 = (digitalRead(BOTON_LIMPIAR) == HIGH) ? UP2 : DOWN2;
     if (estado_nuevo == DOWN) {
         tone(BUZZER_PIN, 100);
     } else {
@@ -206,7 +209,7 @@ void loop() {
             }
         }
     }
-    if (BOTON_LIMPIAR == 0) {
+    if (estado_nuevo2 != estado_actual2) {
       display.clearDisplay();
       display.setCursor(0, 0);
       display.display();
