@@ -101,7 +101,7 @@
   ------------------------------------------------------
   Creditos:
   ------------------------------------------------------
-  Proyecto desarrollado por estudiantes de Laboratorio de Computacion 1 de la UNSAM, anio 2025.
+  Proyecto desarrollado por estudiantes de Laboratorio de Computacion 1 de la UNSAM, año 2025.
   Inspirado en el estudio del codigo Morse y la programacion de sistemas con Arduino.
  
 
