@@ -19,7 +19,8 @@ const unsigned long MEDIUM_GAP = 3 * DOT_DURACION;    // Espacio entre caractere
 const unsigned long LONG_GAP = 7 * DOT_DURACION;      // Espacio entre palabras (7t)
 
 // Pines de conexión
-const int BOTON_PIN = 6;  // Pin para el pulsador (conectado a GND con INPUT_PULLUP)
+const int BOTON_PIN = 6; // Pin para el pulsador (conectado a GND con INPUT_PULLUP)
+const int BOTON_LIMPIAR = 5;  // Para limpiar la pantalla cuando haya errores je :)
 const int BUZZER_PIN = 9;  // Pin para el buzzer
 
 
@@ -106,7 +107,13 @@ char LeerCaracter() {
     }
     return 0;
 }
-
+/*
+void LimpiarDisplay()
+  { if (BOTON_LIMPIAR == 1);
+      display.clearDisplay();
+      display.setCursor(0, 0);
+      display.display();
+  }*/
 
 // Setup y Loop
 void setup() {
@@ -130,7 +137,7 @@ void setup() {
 
     pinMode(BOTON_PIN, INPUT_PULLUP);
     pinMode(BUZZER_PIN, OUTPUT);
-
+    pinMode(BOTON_LIMPIAR, INPUT_PULLUP);
     estado_actual = UP;
     LimpiaMorse();
 }
@@ -198,5 +205,10 @@ void loop() {
                 ultimo_cambio_t = millis();
             }
         }
+    }
+    if (BOTON_LIMPIAR == 0) {
+      display.clearDisplay();
+      display.setCursor(0, 0);
+      display.display();
     }
 }
