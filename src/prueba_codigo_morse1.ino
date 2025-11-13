@@ -11,7 +11,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 // Definiciones de tiempos de Morse
 const unsigned long DOT_DURACION = 300;  // Duración de un punto 
 const unsigned long DASH_DURACION = 3 * DOT_DURACION; // Duración de una raya 
-const unsigned long TOLERANCIA = 200;     // Tolerancia en ms para reconocer puntos/rayas/espacios
+const unsigned long TOLERANCIA = 250;     // Tolerancia en ms para reconocer puntos/rayas/espacios
+bool inicio = false;    
 
 // Gaps (Tiempo que el botón está liberado)
 const unsigned long SHORT_GAP = DOT_DURACION;         // Espacio entre Punto y Raya (1t)
@@ -143,11 +144,14 @@ void setup() {
     estado_actual = UP;
     estado_actual2 = UP2;
     LimpiaMorse();
+
+    
 }
 
 void loop() {
     Estado estado_nuevo = (digitalRead(BOTON_PIN) == HIGH) ? UP : DOWN;
     Estado2 estado_nuevo2 = (digitalRead(BOTON_LIMPIAR) == HIGH) ? UP2 : DOWN2;
+  
     if (estado_nuevo == DOWN) {
         tone(BUZZER_PIN, 100);
     } else {
