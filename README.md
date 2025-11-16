@@ -61,7 +61,7 @@ Componentes utilizados:
 ------------------------------------------------------
 Esquema electrico / Diagrama de conexiones:
 ------------------------------------------------------
-![Diagrama de Conexiones](img/diagramaconexiones.png)
+![Diagrama de Conexiones](img/diagramaconexiones,png.png)
 ------------------------------------------------------
 Maquina de estados:
 ------------------------------------------------------
