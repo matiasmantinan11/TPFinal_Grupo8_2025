@@ -60,7 +60,7 @@ Componentes utilizados:
 ------------------------------------------------------
 Esquema electrico / Diagrama de conexiones:
 ------------------------------------------------------
-![captura](TPFinal_Grupo8_2025/img/diagramadeconexiones.png)
+![captura](img/diagramadeconexiones.png)
 ------------------------------------------------------
 Maquina de estados:
 ------------------------------------------------------
