@@ -1,9 +1,8 @@
-/*
-Proyecto: Traductor de Codigo Morse con Arduino
+**Proyecto: Traductor de Codigo Morse con Arduino**
 
 Descripcion del sistema:
 Este proyecto implementa un traductor de codigo Morse utilizando una placa Arduino UNO,
-un pulsador, un buzzer piezoelectrico y una pantalla OLED 128x32 por I2C. El sistema permite ingresar
+un pulsador, un buzzer pizoelectronico y una pantalla OLED 128x32 por I2C. El sistema permite ingresar
 letras mediante pulsaciones (puntos y rayas) y traduce el codigo Morse en texto alfanumerico
 mostrado en la pantalla OLED, con salida sonora que acompaña cada senal. Ademas se agrego
 un segundo boton dedicado a limpiar la pantalla cuando se presiona.
@@ -61,7 +60,7 @@ Componentes utilizados:
 ------------------------------------------------------
 Esquema electrico / Diagrama de conexiones:
 ------------------------------------------------------
-![captura](TPFinal_Grupo8_2025/img/diagramaconexiones,png.png)
+![captura](TPFinal_Grupo8_2025/img/diagramadeconexiones.png)
 ------------------------------------------------------
 Maquina de estados:
 ------------------------------------------------------
@@ -95,7 +94,6 @@ Imagenes o video demostrativo:
 ------------------------------------------------------
 - Diagrama de conexion: incluido arriba
 - Video demostrativo (opcional): puede agregarse un enlace a YouTube o Google Drive
-
 ------------------------------------------------------
 Licencia:
 ------------------------------------------------------
