@@ -108,7 +108,6 @@ Proyecto desarrollado por estudiantes de Laboratorio de Computacion 1 de la UNSA
 Basado e inspirado en el trabajo original:
 "The Morse Translator With Arduino"
 By Fred_RK en Instructables (Circuits)
-Diagrama realizado con Tinkercad.
 
 El desarrollo se realizo con trabajo grupal, referencias del proyecto original, una pequeña asistencia de herramientas de IA y Diagrama realizado con Tinkercad.
 
