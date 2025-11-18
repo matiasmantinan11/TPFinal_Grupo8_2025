@@ -12,7 +12,7 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 const unsigned long DOT_DURACION = 300;  // Duración de un punto 
 const unsigned long DASH_DURACION = 3 * DOT_DURACION; // Duración de una raya 
 const unsigned long TOLERANCIA = 250;     // Tolerancia en ms para reconocer puntos/rayas/espacios
-bool inicio = false;    
+
 
 // Gaps (Tiempo que el botón está liberado)
 const unsigned long SHORT_GAP = DOT_DURACION;         // Espacio entre Punto y Raya (1t)
@@ -110,13 +110,7 @@ char LeerCaracter() {
     }
     return 0;
 }
-/*
-void LimpiarDisplay()
-  { if (BOTON_LIMPIAR == 1);
-      display.clearDisplay();
-      display.setCursor(0, 0);
-      display.display();
-  }*/
+
 
 // Setup y Loop
 void setup() {
