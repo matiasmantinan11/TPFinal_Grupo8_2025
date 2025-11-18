@@ -91,10 +91,9 @@ Instrucciones de uso y ejecucion:
 
 ------------------------------------------------------
 Imagenes o video demostrativo:
-[Visita mi sitio web](https://youtube.com/shorts/hkZuCt6h1pc?si=4tacQCFCkLv0Ue9O)
 ------------------------------------------------------
 - Diagrama de conexion: incluido arriba
-- Video demostrativo (opcional): puede agregarse un enlace a YouTube o Google Drive
+- [Visita mi sitio web](https://youtube.com/shorts/hkZuCt6h1pc?si=4tacQCFCkLv0Ue9O)
 ------------------------------------------------------
 Licencia:
 ------------------------------------------------------
