@@ -11,7 +11,7 @@ un segundo boton dedicado a limpiar la pantalla cuando se presiona.
 Integrantes del grupo:
 ------------------------------------------------------
 - Santino Pelle — spelle@unsam-edu.com.ar
-- Matias Mantinan — matiasmantinan11@gmail.com
+- Matias Mantiñan — matiasmantinan11@gmail.com
 - Juan Ezequiel Fornes — jefornes@estudiantes.unsam.edu.ar
 - Diego Alexander Mammana — mammanad@gmail.com
 
