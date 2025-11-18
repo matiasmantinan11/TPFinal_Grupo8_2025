@@ -93,7 +93,7 @@ Instrucciones de uso y ejecucion:
 Imagenes o video demostrativo:
 ------------------------------------------------------
 - Diagrama de conexion: incluido arriba
-- [Visita mi sitio web](https://youtube.com/shorts/hkZuCt6h1pc?si=4tacQCFCkLv0Ue9O)
+- [Video demostrativo morse](https://youtube.com/shorts/hkZuCt6h1pc?si=4tacQCFCkLv0Ue9O)
 ------------------------------------------------------
 Licencia:
 ------------------------------------------------------
